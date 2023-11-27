@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('https://media.istockphoto.com/id/1417301422/vector/abstract-white-background.jpg?s=612x612&w=0&k=20&c=vTJItqYpKUAf4EE_1naiklmnMNF4aZe62t3400filq0='); */
+
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color:inherit;
+}
+#container
+{
+  height: 78vh;
+  width: 78vw;
+}
+#but
+{
+  background-color: rgb(5, 13, 255);
+  color: white;
+  border: none;
+  cursor:grab;
+  font-style: normal;
+}
+
+.logincontainer {
+  background-color: rgb(229, 233, 236);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  color: black;
+  margin: 0 auto; /* Horizontally center within its parent container */
+}

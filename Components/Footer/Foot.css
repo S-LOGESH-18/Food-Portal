@@ -1,0 +1,19 @@
+/* Footer.css */
+
+.footer {
+    position:static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .footer.visible {
+    opacity: 1;
+  }
+  

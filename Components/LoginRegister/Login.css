@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    align-content: center;
+    color: gold;
+    background-color: black;
+     background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: black;
+  }
+  #Log7 {
+    background-color: #0074D9;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    justify-content: center;
+  }
+  
+  #Log7:hover {
+    background-color: #0056b3;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  html, body {
+    height: 100%;
+  }
+  
+  html {
+    display: table;
+    margin: auto;
+  }
+  
+  .id 
+  {
+    background-color: chartreuse;
+  }
+  .hi
+  {
+    background-color: rgb(204, 255, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .Log1 {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    backdrop-filter: blur(10px);
+  }
+  #Log1
+  {
+      width: 300px;
+      padding: 20px;
+      margin: auto;
+      background-color: aliceblue;
+      backdrop-filter: 'blur(10px)';
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgb(97, 96, 96); /* Regular box shadow */
+      position: relative; 
+      backdrop-filter: blur(10px);
+      
+  }
+  h1
+  {
+    color:#264926;
+  }
+  h2 {
+      text-align: center;
+      color:greenyellow;
+  }
+  
+  
+#testbutton5 {
+  width: 150px;
+  height:50px;
+  border-radius:180px;
+  position:relative;
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  cursor:pointer;
+  line-height:12px;
+}
+
+#testbutton5:before {
+  content:'';
+  z-index:1;
+  display:block;
+  width:80%;
+  height:70%;
+  top:15%;
+  left:10%;
+  transition: 0.3s opacity ease-in-out;
+  filter:blur(15px);
+  opacity:0;
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+}
+
+#testbutton5:hover:before {
+  opacity:1;
+  transition: 0.3s opacity ease-in-out;
+  filter:blur(25px);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);  
+}
+
+#testbutton5:after {
+  content:'Ok';
+  line-height:40px;
+  font-size:18px;
+  color:rgba(235,235,235,1);
+  font-weight:bold;
+  z-index:5;
+  position:absolute;
+  display:block;
+  border-radius:180px;
+  width:92%;
+  height:80%;
+  top:10%;
+  left:4%;  
+  background-color:rgb(19, 20, 22);
+}
+
